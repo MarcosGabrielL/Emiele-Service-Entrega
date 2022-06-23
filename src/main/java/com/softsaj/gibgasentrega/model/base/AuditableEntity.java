@@ -1,4 +1,4 @@
-package com.github.handioq.diber.model.base;
+package com.softsaj.gibgasentrega.model.base;
 
 import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.CreatedDate;

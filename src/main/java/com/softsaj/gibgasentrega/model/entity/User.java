@@ -1,8 +1,8 @@
-package com.github.handioq.diber.model.entity;
+package com.softsaj.gibgasentrega.model.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.github.handioq.diber.model.base.BaseEntity;
-import com.github.handioq.diber.model.dto.UserDto;
+import com.softsaj.gibgasentrega.model.base.BaseEntity;
+import com.softsaj.gibgasentrega.model.dto.UserDto;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import javax.persistence.*;

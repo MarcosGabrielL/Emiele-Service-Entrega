@@ -1,6 +1,6 @@
-package com.github.handioq.diber.service;
+package com.softsaj.gibgasentrega.service;
 
-import com.github.handioq.diber.model.entity.Role;
+import com.softsaj.gibgasentrega.model.entity.Role;
 
 public interface RoleService {
 

@@ -1,4 +1,4 @@
-package com.github.handioq.diber.service;
+package com.softsaj.gibgasentrega.service;
 
 public interface StatisticService {
 

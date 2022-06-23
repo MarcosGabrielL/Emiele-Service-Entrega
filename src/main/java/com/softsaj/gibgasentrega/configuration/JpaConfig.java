@@ -1,5 +1,6 @@
-package com.github.handioq.diber.configuration;
+package com.softsaj.gibgasentrega.configuration;
 
+import com.softsaj.gibgasentrega.configuration.AuditorAwareImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.domain.AuditorAware;

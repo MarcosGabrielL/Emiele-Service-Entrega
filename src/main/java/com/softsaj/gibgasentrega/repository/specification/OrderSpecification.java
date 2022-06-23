@@ -1,6 +1,6 @@
-package com.github.handioq.diber.repository.specification;
+package com.softsaj.gibgasentrega.repository.specification;
 
-import com.github.handioq.diber.model.entity.Order;
+import com.softsaj.gibgasentrega.model.entity.Order;
 import org.springframework.data.jpa.domain.Specification;
 
 import javax.persistence.criteria.CriteriaBuilder;

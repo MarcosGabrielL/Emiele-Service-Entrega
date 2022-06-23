@@ -1,8 +1,7 @@
-package com.github.handioq.diber.repository.specification;
+package com.softsaj.gibgasentrega.repository.specification;
 
-import com.github.handioq.diber.model.entity.Order;
+import com.softsaj.gibgasentrega.model.entity.Order;
 import org.springframework.data.jpa.domain.Specification;
-import org.springframework.data.jpa.domain.Specifications;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,7 +38,7 @@ public class OrderSpecificationsBuilder {
 
         Specification<Order> result = specs.get(0);
         for (int i = 1; i < specs.size(); i++) {
-            result = Specifications.where(result).and(specs.get(i));
+            result = Specification.where(result).and(specs.get(i));
         }
         return result;
     }

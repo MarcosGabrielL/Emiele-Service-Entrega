@@ -1,8 +1,8 @@
-package com.github.handioq.diber.service.impl;
+package com.softsaj.gibgasentrega.service.impl;
 
-import com.github.handioq.diber.model.entity.Ticket;
-import com.github.handioq.diber.repository.TicketRepository;
-import com.github.handioq.diber.service.TicketService;
+import com.softsaj.gibgasentrega.model.entity.Ticket;
+import com.softsaj.gibgasentrega.repository.TicketRepository;
+import com.softsaj.gibgasentrega.service.TicketService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -20,7 +20,7 @@ public class TicketServiceImpl implements TicketService {
 
     @Override
     public Ticket getById(long id) {
-        return ticketRepository.findOne(id);
+        return ticketRepository.getById(id);
     }
 
     @Override

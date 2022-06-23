@@ -1,6 +1,6 @@
-package com.github.handioq.diber.service;
+package com.softsaj.gibgasentrega.service;
 
-import com.github.handioq.diber.model.entity.Order;
+import com.softsaj.gibgasentrega.model.entity.Order;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;

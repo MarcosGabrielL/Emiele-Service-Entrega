@@ -1,4 +1,4 @@
-package com.github.handioq.diber.model.enums;
+package com.softsaj.gibgasentrega.model.enums;
 
 public enum RoleEnum {
     ROLE_ADMIN,

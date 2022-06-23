@@ -1,8 +1,8 @@
-package com.github.handioq.diber.service.impl;
+package com.softsaj.gibgasentrega.service.impl;
 
-import com.github.handioq.diber.model.entity.Message;
-import com.github.handioq.diber.repository.MessageRepository;
-import com.github.handioq.diber.service.MessageService;
+import com.softsaj.gibgasentrega.model.entity.Message;
+import com.softsaj.gibgasentrega.repository.MessageRepository;
+import com.softsaj.gibgasentrega.service.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -23,7 +23,7 @@ public class MessageServiceImpl implements MessageService {
 
     @Override
     public Message getById(long messageId) {
-        return messageRepository.findOne(messageId);
+        return messageRepository.getById(messageId);
     }
 
     @Override

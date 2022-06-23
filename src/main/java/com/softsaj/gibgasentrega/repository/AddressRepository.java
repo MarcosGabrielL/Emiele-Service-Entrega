@@ -1,7 +1,7 @@
-package com.github.handioq.diber.repository;
+package com.softsaj.gibgasentrega.repository;
 
-import com.github.handioq.diber.model.entity.Address;
-import com.github.handioq.diber.model.entity.User;
+import com.softsaj.gibgasentrega.model.entity.Address;
+import com.softsaj.gibgasentrega.model.entity.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

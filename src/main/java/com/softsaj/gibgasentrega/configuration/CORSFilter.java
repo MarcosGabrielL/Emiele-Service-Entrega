@@ -1,4 +1,4 @@
-package com.github.handioq.diber.configuration;
+package com.softsaj.gibgasentrega.configuration;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;

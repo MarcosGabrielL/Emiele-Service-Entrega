@@ -1,9 +1,9 @@
-package com.github.handioq.diber.controller;
+package com.softsaj.gibgasentrega.controller;
 
-import com.github.handioq.diber.model.dto.UserDto;
-import com.github.handioq.diber.model.entity.User;
-import com.github.handioq.diber.service.UserService;
-import com.github.handioq.diber.utils.Constants;
+import com.softsaj.gibgasentrega.model.dto.UserDto;
+import com.softsaj.gibgasentrega.model.entity.User;
+import com.softsaj.gibgasentrega.service.UserService;
+import com.softsaj.gibgasentrega.utils.Constants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

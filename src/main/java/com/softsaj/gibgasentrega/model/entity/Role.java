@@ -1,6 +1,6 @@
-package com.github.handioq.diber.model.entity;
+package com.softsaj.gibgasentrega.model.entity;
 
-import com.github.handioq.diber.model.base.BaseEntity;
+import com.softsaj.gibgasentrega.model.base.BaseEntity;
 import org.codehaus.jackson.annotate.JsonIgnore;
 
 import javax.persistence.*;

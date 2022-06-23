@@ -1,8 +1,8 @@
-package com.github.handioq.diber.service.impl;
+package com.softsaj.gibgasentrega.service.impl;
 
-import com.github.handioq.diber.model.entity.Role;
-import com.github.handioq.diber.model.entity.User;
-import com.github.handioq.diber.service.SecurityService;
+import com.softsaj.gibgasentrega.model.entity.Role;
+import com.softsaj.gibgasentrega.model.entity.User;
+import com.softsaj.gibgasentrega.service.SecurityService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

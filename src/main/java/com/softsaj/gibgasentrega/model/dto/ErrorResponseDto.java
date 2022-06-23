@@ -1,7 +1,7 @@
-package com.github.handioq.diber.model.dto;
+package com.softsaj.gibgasentrega.model.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.github.handioq.diber.model.base.BaseDto;
+import com.softsaj.gibgasentrega.model.base.BaseDto;
 
 public class ErrorResponseDto extends BaseDto {
 

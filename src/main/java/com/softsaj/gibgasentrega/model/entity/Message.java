@@ -1,7 +1,7 @@
-package com.github.handioq.diber.model.entity;
+package com.softsaj.gibgasentrega.model.entity;
 
-import com.github.handioq.diber.model.base.AuditableEntity;
-import com.github.handioq.diber.model.dto.MessageDto;
+import com.softsaj.gibgasentrega.model.base.AuditableEntity;
+import com.softsaj.gibgasentrega.model.dto.MessageDto;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

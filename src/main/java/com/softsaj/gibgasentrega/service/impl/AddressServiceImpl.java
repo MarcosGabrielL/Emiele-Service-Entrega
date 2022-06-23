@@ -1,9 +1,9 @@
-package com.github.handioq.diber.service.impl;
+package com.softsaj.gibgasentrega.service.impl;
 
-import com.github.handioq.diber.model.entity.Address;
-import com.github.handioq.diber.model.entity.User;
-import com.github.handioq.diber.repository.AddressRepository;
-import com.github.handioq.diber.service.AddressService;
+import com.softsaj.gibgasentrega.model.entity.Address;
+import com.softsaj.gibgasentrega.model.entity.User;
+import com.softsaj.gibgasentrega.repository.AddressRepository;
+import com.softsaj.gibgasentrega.service.AddressService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -41,7 +41,7 @@ public class AddressServiceImpl implements AddressService {
 
     @Override
     public Address findOne(long addressId) {
-        return addressRepository.findOne(addressId);
+        return addressRepository.getById(addressId);
     }
 
     @Override
@@ -61,7 +61,7 @@ public class AddressServiceImpl implements AddressService {
 
     @Override
     public void delete(long addressId) {
-        addressRepository.delete(addressId);
+        addressRepository.deleteById(addressId);
     }
 
     @Override

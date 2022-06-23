@@ -1,7 +1,7 @@
-package com.github.handioq.diber.service.impl;
+package com.softsaj.gibgasentrega.service.impl;
 
-import com.github.handioq.diber.model.entity.User;
-import com.github.handioq.diber.service.UserService;
+import com.softsaj.gibgasentrega.model.entity.User;
+import com.softsaj.gibgasentrega.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

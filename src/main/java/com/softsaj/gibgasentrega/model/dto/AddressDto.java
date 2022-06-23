@@ -1,7 +1,7 @@
-package com.github.handioq.diber.model.dto;
+package com.softsaj.gibgasentrega.model.dto;
 
-import com.github.handioq.diber.model.base.BaseDto;
-import com.github.handioq.diber.model.entity.Address;
+import com.softsaj.gibgasentrega.model.base.BaseDto;
+import com.softsaj.gibgasentrega.model.entity.Address;
 
 import java.util.ArrayList;
 import java.util.List;

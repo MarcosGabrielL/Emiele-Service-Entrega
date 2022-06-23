@@ -1,8 +1,8 @@
-package com.github.handioq.diber.service.impl;
+package com.softsaj.gibgasentrega.service.impl;
 
-import com.github.handioq.diber.model.entity.User;
-import com.github.handioq.diber.repository.AuthRepository;
-import com.github.handioq.diber.service.AuthService;
+import com.softsaj.gibgasentrega.model.entity.User;
+import com.softsaj.gibgasentrega.repository.AuthRepository;
+import com.softsaj.gibgasentrega.service.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

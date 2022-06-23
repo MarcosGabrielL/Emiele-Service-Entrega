@@ -1,8 +1,8 @@
-package com.github.handioq.diber.service.impl;
+package com.softsaj.gibgasentrega.service.impl;
 
-import com.github.handioq.diber.model.entity.User;
-import com.github.handioq.diber.repository.UserRepository;
-import com.github.handioq.diber.service.UserService;
+import com.softsaj.gibgasentrega.model.entity.User;
+import com.softsaj.gibgasentrega.repository.UserRepository;
+import com.softsaj.gibgasentrega.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -33,14 +33,13 @@ public class UserServiceImpl implements UserService {
         return userRepository.findAll(pageable);
     }
 
-    @Override
-    public User findOne(long id) {
-        return userRepository.findOne(id);
+    public User getById(long id) {
+        return userRepository.getById(id);
     }
 
     @Override
     public void delete(long id) {
-        userRepository.delete(id);
+        userRepository.deleteById(id);
     }
 
     @Override
@@ -56,5 +55,10 @@ public class UserServiceImpl implements UserService {
     @Override
     public Long count() {
         return userRepository.count();
+    }
+
+    @Override
+    public User findOne(long id) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }

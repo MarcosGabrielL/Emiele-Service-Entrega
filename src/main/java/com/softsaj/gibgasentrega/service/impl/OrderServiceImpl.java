@@ -1,8 +1,8 @@
-package com.github.handioq.diber.service.impl;
+package com.softsaj.gibgasentrega.service.impl;
 
-import com.github.handioq.diber.model.entity.Order;
-import com.github.handioq.diber.repository.OrderRepository;
-import com.github.handioq.diber.service.OrderService;
+import com.softsaj.gibgasentrega.model.entity.Order;
+import com.softsaj.gibgasentrega.repository.OrderRepository;
+import com.softsaj.gibgasentrega.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -21,7 +21,7 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public Order getById(long id) {
-        return orderRepository.findOne(id);
+        return orderRepository.getById(id);
     }
 
     @Override
@@ -51,7 +51,7 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public void delete(long orderId) {
-        orderRepository.delete(orderId);
+        orderRepository.deleteById(orderId);
     }
 
     @Override

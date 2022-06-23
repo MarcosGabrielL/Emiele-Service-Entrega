@@ -1,6 +1,6 @@
-package com.github.handioq.diber.service;
+package com.softsaj.gibgasentrega.service;
 
-import com.github.handioq.diber.model.entity.Review;
+import com.softsaj.gibgasentrega.model.entity.Review;
 
 import java.util.List;
 

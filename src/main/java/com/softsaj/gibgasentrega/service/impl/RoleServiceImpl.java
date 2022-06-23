@@ -1,8 +1,8 @@
-package com.github.handioq.diber.service.impl;
+package com.softsaj.gibgasentrega.service.impl;
 
-import com.github.handioq.diber.model.entity.Role;
-import com.github.handioq.diber.repository.RoleRepository;
-import com.github.handioq.diber.service.RoleService;
+import com.softsaj.gibgasentrega.model.entity.Role;
+import com.softsaj.gibgasentrega.repository.RoleRepository;
+import com.softsaj.gibgasentrega.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -16,6 +16,6 @@ public class RoleServiceImpl implements RoleService {
 
     @Override
     public Role findRole(long id) {
-        return roleRepository.findOne(id);
+        return roleRepository.getById(id);
     }
 }

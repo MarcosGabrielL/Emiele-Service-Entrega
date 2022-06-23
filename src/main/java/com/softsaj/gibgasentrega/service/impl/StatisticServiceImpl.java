@@ -1,4 +1,4 @@
-package com.github.handioq.diber.service.impl;
+package com.softsaj.gibgasentrega.service.impl;
 
 public class StatisticServiceImpl {
 

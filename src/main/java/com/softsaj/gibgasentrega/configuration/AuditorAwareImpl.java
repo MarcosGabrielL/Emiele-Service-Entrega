@@ -1,15 +1,17 @@
-package com.github.handioq.diber.configuration;
+package com.softsaj.gibgasentrega.configuration;
 
-import com.github.handioq.diber.model.entity.User;
+import com.softsaj.gibgasentrega.model.entity.User;
+import java.util.Optional;
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.security.core.context.SecurityContextHolder;
 
 public class AuditorAwareImpl implements AuditorAware<Long> {
 
     @Override
-    public Long getCurrentAuditor() {
-        // Can use Spring Security to return currently logged in user
-        return ((User) SecurityContextHolder.getContext().getAuthentication().getPrincipal()).getId();
+    public Optional<Long> getCurrentAuditor() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
+
+  
 
 }

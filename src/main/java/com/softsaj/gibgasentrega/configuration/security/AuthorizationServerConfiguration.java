@@ -1,4 +1,4 @@
-package com.github.handioq.diber.configuration.security;
+package com.softsaj.gibgasentrega.configuration.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

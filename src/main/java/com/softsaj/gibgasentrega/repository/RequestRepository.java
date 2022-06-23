@@ -1,6 +1,6 @@
-package com.github.handioq.diber.repository;
+package com.softsaj.gibgasentrega.repository;
 
-import com.github.handioq.diber.model.entity.Request;
+import com.softsaj.gibgasentrega.model.entity.Request;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

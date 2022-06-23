@@ -1,4 +1,4 @@
-package com.github.handioq.diber.utils;
+package com.softsaj.gibgasentrega.utils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,9 +1,9 @@
-package com.github.handioq.diber.model.dto;
+package com.softsaj.gibgasentrega.model.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.github.handioq.diber.model.base.BaseDto;
-import com.github.handioq.diber.model.entity.Message;
+import com.softsaj.gibgasentrega.model.base.BaseDto;
+import com.softsaj.gibgasentrega.model.entity.Message;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.github.handioq.diber.controller;
+package com.softsaj.gibgasentrega.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;

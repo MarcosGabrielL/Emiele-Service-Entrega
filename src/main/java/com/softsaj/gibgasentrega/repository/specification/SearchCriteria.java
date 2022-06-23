@@ -1,4 +1,4 @@
-package com.github.handioq.diber.repository.specification;
+package com.softsaj.gibgasentrega.repository.specification;
 
 public class SearchCriteria {
 
